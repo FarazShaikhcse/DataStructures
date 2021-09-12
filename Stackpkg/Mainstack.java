@@ -1,6 +1,6 @@
 package Stackpkg;
 
-public class Main {
+public class Mainstack {
 public static void main(String[] args) {
 		
 		Stack stack = new Stack();

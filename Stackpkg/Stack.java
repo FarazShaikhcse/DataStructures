@@ -52,6 +52,7 @@ public class Stack {
 			System.out.println("Stack is empty");
 			return;
 		}
+		System.out.println("Stack contains");
 		Node temp=head;
 		while(temp.next!=null) {
 			System.out.print(temp.data+"---> ");
