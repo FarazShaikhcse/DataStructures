@@ -79,7 +79,7 @@ public class LinkedList {
 	 */
 	public void deleteFirst()  {
 		if(head==null) {
-			System.out.println("Underflow");
+			System.out.println("Underflow, Linked list is empty");
 			return;
 		}
 		Node temp=head;
@@ -95,7 +95,7 @@ public class LinkedList {
 	 */
 	public void deleteLast()  {
 		if(head==null) {
-			System.out.println("Underflow");
+			System.out.println("Underflow, Linked list is empty");
 			return;
 		}
 		Node temp=head;
@@ -120,7 +120,7 @@ public class LinkedList {
 		Node temp=head;
 		int count=0;
 		if(head==null) {
-			System.out.println("Underflow");
+			System.out.println("Underflow, Linked list is empty");
 			return;
 		}
 		while(temp!=null) {
@@ -141,7 +141,7 @@ public class LinkedList {
 	public void print() {
 		Node temp= head;
 		if(temp==null) {
-			System.out.println("Underflow");
+			System.out.println("Underflow, Linked list is empty");
 			return;
 		}
 		while(temp.next!=null) {
@@ -160,7 +160,7 @@ public class LinkedList {
 		
 		Node newNode = new Node(data);
 		if(head == null) {
-			System.out.println("underflow");
+			System.out.println("underflow, Linked list is empty");
 			return;
 		}
 		Node temp = head;
@@ -194,7 +194,7 @@ public class LinkedList {
 	public void deleteNode(int data) {
 
 		if(head == null) {
-			System.out.println("underflow");
+			System.out.println("underflow, Linked list is empty");
 			return;
 		}
 		if(head.next == null) {
